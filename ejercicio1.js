@@ -4,8 +4,8 @@
 
 const prompt = require ('prompt-sync')();
 
-let numero1 = (prompt ('Ingrese el primer número: '));
-let numero2 = (prompt ('Ingrese el segundo número: '));
+let numero1 = parseInt(prompt ('Ingrese el primer número: '));
+let numero2 = parseInt(prompt ('Ingrese el segundo número: '));
 
 if (numero1 > numero2) {
     console.log ('El primer número es mayor que el segundo.');
